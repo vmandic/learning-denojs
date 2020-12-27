@@ -21,7 +21,7 @@ To enable vscode autocomplete create a .vscode\setting.json > `{"deno.enable": t
 
 ## Top level await
 
-Deno supports top level await, meaning that you can write `await` statements in top level scope without needning an explicit `async function` scope.
+Deno supports top level await, meaning that you can write `await` statements in top level scope without needing an explicit `async function` scope.
 
 ---
 More intro details can be found on the official tutorial page: <https://deno.land/manual@v1.6.2/introduction>
