@@ -17,7 +17,7 @@ r.get("/tasks/:id", ctx => {
     const task = tasks.find(x => x.id == id);
 
     if (!task) {
-        throw new httpErrors.NotFound;
+        throw new httpErrors.NotFound();
     } else {
         ctx.response.body = task;
     }
